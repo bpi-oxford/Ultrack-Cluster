@@ -10,7 +10,7 @@ It is used as the Ultrack node of [pyCyto](https://github.com/bpi-oxford/Cytotox
 
 ## Install
 ```bash
-git clone https://github.com/jackyko1991/Ultrack-Cluster.git
+git clone https://github.com/bpi-oxford/Ultrack-Cluster.git
 cd Ultrack-Cluster
 pixi install                 # default: ultrack 0.8, PostgreSQL 16, dasel, Gurobi, CPU torch
 pixi install -e gpu          # only for GPU segmentation
