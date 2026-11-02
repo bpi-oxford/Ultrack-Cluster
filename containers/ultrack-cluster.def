@@ -12,7 +12,7 @@ From: condaforge/miniforge3:24.3.0-0
 # smoke test (ultrack at royerlab/ultrack@5dc7839, Python 3.10, zarr 2.x).
 
 %labels
-    org.opencontainers.image.source https://github.com/jackyko1991/Ultrack-Cluster
+    org.opencontainers.image.source https://github.com/bpi-oxford/Ultrack-Cluster
     org.opencontainers.image.description Ultrack-Cluster runtime (ultrack, PostgreSQL, dasel, gurobipy)
 
 %environment
