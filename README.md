@@ -41,3 +41,4 @@ bash main.sh
 | [Solver settings](docs/solver.md) | ILP size, Gurobi LP method for large windows |
 | [Manual run](docs/manual-run.md) | submitting stages one by one, useful SLURM commands |
 | [FAQ](docs/faq.md) | reusing the database, schema, PostgreSQL vs SQLite |
+| [Paper parameters](docs/parameters_paper.md) | Ultrack parameters per dataset used in the CytoTactix paper (CTC benchmarks, UTSE lightsheet) |
