@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/assets/ultrack_distributed_logo.png" width="520" alt="Ultrack-Distributed logo"></p>
+
 # Ultrack-Cluster
 
 Distributed [Ultrack](https://github.com/royerlab/ultrack) tracking on a SLURM cluster: candidate segmentation and linking run as job arrays, the integer linear program is solved in overlapping time windows, and a PostgreSQL server started as a cluster job coordinates them. Written for BMRC (University of Oxford); partitions, accounts and licence paths are environment variables, so it adapts to other SLURM sites.
@@ -42,3 +44,6 @@ bash main.sh
 | [Manual run](docs/manual-run.md) | submitting stages one by one, useful SLURM commands |
 | [FAQ](docs/faq.md) | reusing the database, schema, PostgreSQL vs SQLite |
 | [Paper parameters](docs/parameters_paper.md) | Ultrack parameters per dataset used in the CytoTactix paper (CTC benchmarks, UTSE lightsheet) |
+
+## Logo
+`docs/assets/ultrack_distributed_logo.png` is derived from the [ultrack](https://github.com/royerlab/ultrack) logo (BSD-3-Clause; the mark belongs to its authors): "Distributed" is appended and the two arrows are extended in alternating sections for the even and odd solve windows. `docs/assets/make_ultrack_distributed_logo.py` regenerates it.
